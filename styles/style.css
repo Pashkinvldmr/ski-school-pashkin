@@ -1,3 +1,156 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+      url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   src: local(''),
+      url('../fonts/montserrat-v25-latin_cyrillic-500.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* oswald-500 - latin_cyrillic */
+@font-face {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   src: local(''),
+      url('../fonts/oswald-v49-latin_cyrillic-500.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/oswald-v49-latin_cyrillic-500.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+   background: #E5E5E5;
+}
+
 .header {
    background: #66D1FF;
+}
+
+.btn {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+}
+
+.header-logo {
+
+}
+
+.logo-img {
+
+}
+
+.header-phone {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 28px;
+
+   color: #060D10;
+
+   text-decoration: none;
+}
+
+.main {
+
+}
+
+.about {
+   color: #fff;
+}
+
+.about-title {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   font-size: 60px;
+}
+
+.about-text {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 32px;
+}
+
+.desc {
+   color: #060D10;
+}
+
+.desc-title {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   font-size: 48px;
+}
+
+.desc-text {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   font-size: 32px;
+}
+
+.desc-subtext {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   font-size: 26px;
+}
+
+.promo {
+   color: #060D10;
+}
+
+.promo-title {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   font-size: 48px;
+}
+
+.promo-item {
+
+}
+
+.footer {
+   background: #060D10;
+   color: #fff;
+}
+
+.footer-link {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+
+   color: #fff;
+
+   text-decoration: none;
+}
+
+.social {
+
+}
+
+.social-item {
+
+}
+
+.social-icon {
+
+}
+
+.copy-text {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
 }
