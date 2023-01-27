@@ -1,4 +1,4 @@
-/* montserrat-regular - latin_cyrillic */
+/* montserrat-400 */
 @font-face {
    font-family: 'Montserrat';
    font-style: normal;
@@ -10,7 +10,7 @@
    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* montserrat-500 - latin_cyrillic */
+/* montserrat-500 */
 @font-face {
    font-family: 'Montserrat';
    font-style: normal;
@@ -22,7 +22,7 @@
    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* oswald-500 - latin_cyrillic */
+/* oswald-500 */
 @font-face {
    font-family: 'Oswald';
    font-style: normal;
@@ -34,10 +34,15 @@
    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+
+/* body */
 body {
    background: #E5E5E5;
 }
 
+
+
+/* header */
 .header {
    background: #66D1FF;
 }
@@ -66,6 +71,8 @@ body {
    text-decoration: none;
 }
 
+
+/* main */
 .main {
 
 }
@@ -122,6 +129,8 @@ body {
 
 }
 
+
+/* footer */
 .footer {
    background: #060D10;
    color: #fff;
