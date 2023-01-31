@@ -1,165 +1,195 @@
 /* montserrat-400 */
 @font-face {
-   font-family: 'Montserrat';
-   font-style: normal;
-   font-weight: 400;
-   src: local(''),
-      url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff');
-   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* montserrat-500 */
 @font-face {
-   font-family: 'Montserrat';
-   font-style: normal;
-   font-weight: 500;
-   src: local(''),
-      url('../fonts/montserrat-v25-latin_cyrillic-500.woff2') format('woff2'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('../fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff');
-   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../fonts/montserrat-v25-latin_cyrillic-500.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* oswald-500 */
 @font-face {
-   font-family: 'Oswald';
-   font-style: normal;
-   font-weight: 500;
-   src: local(''),
-      url('../fonts/oswald-v49-latin_cyrillic-500.woff2') format('woff2'),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('../fonts/oswald-v49-latin_cyrillic-500.woff') format('woff');
-   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../fonts/oswald-v49-latin_cyrillic-500.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/oswald-v49-latin_cyrillic-500.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* common */
+.container {
+  max-width: 1278px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 
 /* body */
 body {
-   background: #E5E5E5;
+  background: #E5E5E5;
+  margin: 0;
 }
 
 
 
 /* header */
 .header {
-   background: #66D1FF;
+  background: #66D1FF;
 }
 
 .btn {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 500;
-   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
 }
 
-.header-logo {
+.header-logo {}
 
-}
-
-.logo-img {
-
-}
+.logo-img {}
 
 .header-phone {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 500;
-   font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
 
-   color: #060D10;
+  color: #060D10;
 
-   text-decoration: none;
+  text-decoration: none;
 }
 
 
 /* main */
-.main {
-
-}
+.main {}
 
 .about {
-   color: #fff;
+  color: #fff;
+
+  min-height: 766px;
 }
 
 .about-title {
-   font-family: 'Oswald', sans-serif;
-   font-weight: 500;
-   font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+
+  text-transform: uppercase;
 }
 
 .about-text {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 500;
-   font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
 }
 
 .desc {
-   color: #060D10;
+  color: #060D10;
+
+  min-height: 998px;
 }
 
 .desc-title {
-   font-family: 'Oswald', sans-serif;
-   font-weight: 500;
-   font-size: 48px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 167%;
+
+  text-transform: uppercase;
 }
 
 .desc-text {
-   font-family: 'Oswald', sans-serif;
-   font-weight: 500;
-   font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 167%;
+
+  text-transform: uppercase;
 }
 
 .desc-subtext {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 400;
-   font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+
+  line-height: 140%;
 }
 
 .promo {
-   color: #060D10;
+  color: #060D10;
+
+  min-height: 1003px;
 }
 
 .promo-title {
-   font-family: 'Oswald', sans-serif;
-   font-weight: 500;
-   font-size: 48px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+
+  text-transform: uppercase;
 }
 
-.promo-item {
-
-}
+.promo-item {}
 
 
 /* footer */
 .footer {
-   background: #060D10;
-   color: #fff;
+  background: #060D10;
+  color: #fff;
 }
 
 .footer-link {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 500;
-   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 
-   color: #fff;
+  color: #fff;
 
-   text-decoration: none;
+  text-decoration: none;
 }
 
-.social {
+.social {}
 
-}
+.social-item {}
 
-.social-item {
-
-}
-
-.social-icon {
-
-}
+.social-icon {}
 
 .copy-text {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 500;
-   font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
