@@ -76,6 +76,20 @@
 }
 
 
+/* svg */
+.svg-icon {
+  fill: #000000;
+  stroke: #000000;
+
+  transition: all .15s linear;
+}
+
+.svg-icon:hover {
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+
+
 /* body */
 body {
   background: #E5E5E5;
