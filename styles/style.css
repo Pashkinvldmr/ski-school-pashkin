@@ -180,8 +180,6 @@ body {
 
 
 /* main */
-.main {}
-
 .about {
   color: #fff;
   text-align: center;
@@ -291,7 +289,6 @@ body {
 
 .wrap-promo {
   margin: 0;
-  padding: 0;
 
   text-align: center;
   padding: 170px 81px 180px 81px;
@@ -379,8 +376,6 @@ body {
   height: 300px;
 }
 
-.promo-item img {}
-
 
 /* footer */
 .footer {
@@ -407,8 +402,6 @@ body {
   margin-left: -620px;
   padding-top: 7px;
 }
-
-.social-item {}
 
 .social-icon {
   max-width: 40px;
