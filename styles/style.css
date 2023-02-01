@@ -78,6 +78,7 @@
 
 /* svg */
 .svg-icon {
+  display: block;
   fill: #000000;
   stroke: #000000;
 
@@ -126,7 +127,7 @@ body {
 }
 
 .header-logo {
-
+  margin: 0;
 }
 
 .logo-img {
