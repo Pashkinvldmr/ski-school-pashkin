@@ -49,6 +49,13 @@
   box-sizing: border-box;
 }
 
+* ::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 
 /* body */
 body {
@@ -195,8 +202,10 @@ header:before {
   content: '';
   display: block;
   max-width: 1278px;
-  border: 1px solid #060D10;
+  height: 1px;
+  background-color: #ff0000;
   margin: 0 auto;
+  opacity: 0.1;
 }
 
 .desc-bg {
@@ -255,14 +264,26 @@ header:before {
 }
 
 .lead-bg {
-  /* background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%); */
+  background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
   padding: 170px 0 180px;
 }
 
+.flex-lead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 60px;
+
+  margin-bottom: 130px;
+}
+
 .lead-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald';
+  font-style: normal;
   font-weight: 500;
   font-size: 48px;
+  line-height: 80px;
 
   text-transform: uppercase;
   text-align: center;
@@ -274,6 +295,7 @@ header:before {
   display: block;
 
   font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
@@ -285,8 +307,6 @@ header:before {
   background: none;
 
   cursor: pointer;
-
-  margin: 60px auto;
 }
 
 .lead-btn:hover {
@@ -299,8 +319,6 @@ header:before {
   /* flex-flex-wrap: flex-wrap; */
 
   column-gap: 30px;
-
-  margin-top: 130px;
 }
 
 .lead-card {
