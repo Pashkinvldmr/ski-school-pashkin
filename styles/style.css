@@ -81,20 +81,6 @@ body {
 
 
 /* header */
-header:before {
-  /* top shadow */
-  content: "";
-  position: fixed;
-  top: -10px;
-  left: -10px;
-  width: 110%;
-  height: 123px;
-
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
-
-  z-index: 100;
-}
-
 .header {
   background: #66D1FF;
 
@@ -103,6 +89,8 @@ header:before {
   position: sticky;
   top: 0;
   z-index: 1000;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
 }
 
 .btn {
@@ -197,18 +185,6 @@ header:before {
 .desc {
   color: #060D10;
 }
-
-/* .desc::after {
-  content: '';
-  display: block;
-  width: 1278px;
-  margin: 0 auto;
-  height: 2px;
-  background-color: #ff0000;
-
-  position: absolute;
-  top: 300px;
-} */
 
 .desc-bg {
   background-color: rgba(102, 209, 255, .1);
@@ -325,27 +301,28 @@ header:before {
   background: rgba(44, 44, 44, 0.051);
 }
 
-.lead-items {
+.lead-wrap {
+  width: 100%;
+  height: 100%;
+  column-gap: 30px;
   display: flex;
   justify-content: center;
-  /* flex-flex-wrap: flex-wrap; */
-
-  column-gap: 30px;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .lead-card {
   width: 300px;
   height: 300px;
-
   position: relative;
   perspective: 1000px;
 }
-
-.lead-front,
-.lead-back {
+.lead-front, .lead-back {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,21 +331,19 @@ header:before {
 }
 
 .lead-back {
-  transform: rotateY(180deg)
+  transform: rotateY(180deg);
+}
+.lead-card:hover .lead-front {
+  transform: rotateY(180deg);
 }
 
-.lead-card:hover .front {
-  transform: rotateY(180deg)
+.lead-card:hover .lead-back {
+  transform: rotateY(360deg);
 }
 
-.lead-card:hover .back {
-  transform: rotateY(360deg)
-}
-
-.lead-item {
+.lead-img {
   display: block;
-  width: 300px;
-  height: 300px;
+  width: 100%;
 }
 
 
