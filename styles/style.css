@@ -77,6 +77,7 @@ body {
   display: block;
   fill: #fff;
   stroke: none;
+  transition: all .15s linear;
 }
 
 .twitter-svg:hover {
@@ -89,6 +90,7 @@ body {
   display: block;
   fill: #fff;
   stroke: none;
+  transition: all .15s linear;
 }
 
 .linkedin-svg:hover {
@@ -101,6 +103,7 @@ body {
   display: block;
   fill: #fff;
   stroke: none;
+  transition: all .15s linear;
 }
 
 .google-svg:hover {
@@ -113,6 +116,7 @@ body {
   display: block;
   fill: #ffffff;
   stroke: none;
+  transition: all .15s linear;
 }
 
 .facebook-svg:hover {
@@ -151,7 +155,10 @@ body {
 }
 
 .header-btn:hover {
-  background: #66d1ff7a;
+  background: none;
+  color: #fff;
+  text-shadow: 1px 1px 2px #060d10;
+  font-size: 24px;
 }
 
 .header-phone {
@@ -334,8 +341,11 @@ body {
 }
 
 .lead-btn:hover {
-  background: rgba(102, 209, 255, .1);
-  border-color: #fff;
+  background: #ffffff;
+  border-color: #000000;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 36px;
 }
 
 .lead-wrap {
@@ -353,6 +363,7 @@ body {
   height: 300px;
   position: relative;
   perspective: 1000px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .lead-front,
@@ -375,10 +386,12 @@ body {
 
 .lead-card:hover .lead-front {
   transform: rotateY(180deg);
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 .lead-card:hover .lead-back {
   transform: rotateY(360deg);
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 .lead-img {
@@ -414,6 +427,12 @@ body {
   color: #fff;
 
   text-decoration: none;
+
+  transition: all .15s linear;
+}
+
+.footer-link:hover {
+  color: #66d1ff;
 }
 
 .footer-icons {
