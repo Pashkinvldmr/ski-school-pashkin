@@ -76,7 +76,47 @@ body {
   max-height: 40px;
   display: block;
   fill: #fff;
-  stroke: #ffffff;
+  stroke: none;
+}
+
+.twitter-svg:hover {
+  fill: #66d1ff;
+}
+
+.linkedin-svg {
+  max-width: 40px;
+  max-height: 40px;
+  display: block;
+  fill: #fff;
+  stroke: none;
+}
+
+.linkedin-svg:hover {
+  fill: #66d1ff;
+}
+
+.google-svg {
+  max-width: 40px;
+  max-height: 40px;
+  display: block;
+  fill: #fff;
+  stroke: none;
+}
+
+.google-svg:hover {
+  fill: #66d1ff;
+}
+
+.facebook-svg {
+  max-width: 40px;
+  max-height: 40px;
+  display: block;
+  fill: #ffffff;
+  stroke: none;
+}
+
+.facebook-svg:hover {
+  fill: #66d1ff;
 }
 
 
