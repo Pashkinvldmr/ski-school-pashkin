@@ -71,6 +71,14 @@ body {
   stroke: #ffffff;
 }
 
+.twitter-svg {
+  max-width: 40px;
+  max-height: 40px;
+  display: block;
+  fill: #fff;
+  stroke: #ff0000;
+}
+
 
 /* header */
 .header {
@@ -104,7 +112,6 @@ body {
 
 .header-btn:hover {
   background: #66d1ff7a;
-  border-color: #11e226ad;
 }
 
 .header-phone {
@@ -282,10 +289,13 @@ body {
   background: none;
 
   cursor: pointer;
+
+  transition: all .15s linear;
 }
 
 .lead-btn:hover {
-  background: rgba(44, 44, 44, 0.051);
+  background: rgba(102, 209, 255, .1);
+  border-color: #fff;
 }
 
 .lead-wrap {
@@ -348,6 +358,7 @@ body {
 .footer-wrap {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .footer-link {
@@ -356,7 +367,9 @@ body {
   font-size: 20px;
   line-height: 33px;
 
-  margin: 0 0 0 17px;
+  position: absolute;
+  left: 17px;
+  margin: 0;
 
   color: #fff;
 
@@ -366,7 +379,7 @@ body {
 .footer-icons {
   column-gap: 20px;
   display: flex;
-  margin-left: 50px;
+  margin-left: 238px;
 }
 
 .footer-item {
@@ -380,5 +393,7 @@ body {
   font-size: 18px;
   line-height: 22px;
 
-  margin: 0 0 0 623px;
+  position: absolute;
+  right: 0;
+  margin: 0;
 }
