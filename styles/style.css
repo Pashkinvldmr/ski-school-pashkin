@@ -444,6 +444,13 @@ body {
   position: absolute;
   right: 0;
   margin: 0;
+
+  transition: all .15s linear;
+}
+
+.footer-text:hover {
+  color: #66d1ff;
+  transform: scale(1.1);
 }
 
 
@@ -489,5 +496,132 @@ body {
     font-size: 19px;
     line-height: 19px;
     padding: 22px 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-btn {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0px 18px;
+  }
+  .header-svg {
+    max-width: 207px;
+    max-height: 35px;
+  }
+  .header-phone {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .about-title {
+    font-size: 27px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+  }
+  .about-text {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .header-inner {
+    flex-direction: column-reverse;
+    row-gap: 10px;
+  }
+  .footer-inner {
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-add {
+    display: none;
+  }
+  .footer-text {
+    position: relative;
+    margin: 0;
+  }
+  .footer-icons {
+    margin: 0;
+    column-gap: 10px;
+  }
+  .twitter-svg {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .linkedin-svg {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .google-svg {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .facebook-svg {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .footer-item {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .footer-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .footer {
+    padding: 10px 0;
+  }
+  .header {
+    padding: 10px 0;
+  }
+  .about-bg {
+    padding: 10px 5px 10px;
+  }
+  .desc-bg {
+    padding: 10px 5px 0;
+  }
+  .desc-title {
+    font-size: 23px;
+    line-height: 150%;
+    margin-bottom: 20px;
+  }
+  .desc-text {
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+  }
+  .desc-subtext {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .desc-items {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+}
+  .desc-items::after {
+    margin-top: 0;
+  }
+  .desc-item {
+    text-align: center;
+  }
+  .lead-bg {
+    padding: 7px 0 30px;
+  }
+  .lead-inner {
+    margin-bottom: 30px;
+    row-gap: 7px;
+  }
+  .lead-btn {
+    font-size: 19px;
+    line-height: 9px;
+    padding: 10px 30px;
+    width: 62%;
+  }
+  .lead-title {
+    font-size: 30px;
+    line-height: 45px;
   }
 }
