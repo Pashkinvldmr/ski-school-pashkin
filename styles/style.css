@@ -438,6 +438,9 @@ body {
   font-size: 18px;
   line-height: 22px;
 
+  text-decoration: none;
+  color: #fff;
+
   position: absolute;
   right: 0;
   margin: 0;
@@ -445,7 +448,7 @@ body {
 
 
 /* media */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 858px) {
   .header-inner {
     flex-direction: column;
     row-gap: 10px;
