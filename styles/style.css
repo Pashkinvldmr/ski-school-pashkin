@@ -84,6 +84,7 @@ body {
 
 .twitter-svg:hover {
   fill: #66d1ff;
+  transform: scale(1.1);
 }
 
 .linkedin-svg {
@@ -97,6 +98,7 @@ body {
 
 .linkedin-svg:hover {
   fill: #66d1ff;
+  transform: scale(1.1);
 }
 
 .google-svg {
@@ -110,6 +112,7 @@ body {
 
 .google-svg:hover {
   fill: #66d1ff;
+  transform: scale(1.1);
 }
 
 .facebook-svg {
@@ -123,6 +126,7 @@ body {
 
 .facebook-svg:hover {
   fill: #66d1ff;
+  transform: scale(1.1);
 }
 
 
@@ -375,7 +379,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s;
+  transition: .9s;
   backface-visibility: hidden;
 }
 
@@ -413,7 +417,7 @@ body {
   position: relative;
 }
 
-.footer-link {
+.footer-add {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -426,12 +430,6 @@ body {
   color: #fff;
 
   text-decoration: none;
-
-  transition: all .15s linear;
-}
-
-.footer-link:hover {
-  color: #66d1ff;
 }
 
 .footer-icons {
