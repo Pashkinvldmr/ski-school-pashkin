@@ -63,12 +63,14 @@ body {
   fill: #000000;
   stroke: #000000;
 
-  transition: all .15s linear;
+  transition: all .1s linear;
 }
 
 .header-svg:hover {
   fill: #ffffff;
   stroke: #ffffff;
+  transform: scale(1.05);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .twitter-svg {
@@ -151,14 +153,12 @@ body {
 
   cursor: pointer;
 
-  transition: all .15s linear;
+  transition: all .1s linear;
 }
 
 .header-btn:hover {
-  background: none;
-  color: #fff;
-  text-shadow: 1px 1px 2px #060d10;
-  font-size: 24px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: scale(1.05);
 }
 
 .header-phone {
@@ -171,11 +171,13 @@ body {
 
   text-decoration: none;
 
-  transition: all .15s linear;
+  transition: all .1s linear;
 }
 
 .header-phone:hover {
   color: #fff;
+  transform: scale(1.05);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -341,11 +343,8 @@ body {
 }
 
 .lead-btn:hover {
-  background: #66d1ffa8;
-  border-color: #000000;
-  color: #ffffff;
-  text-shadow: 1px 1px 2px #000000;
-  font-size: 36px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: scale(1.05);
 }
 
 .lead-wrap {
@@ -386,12 +385,12 @@ body {
 
 .lead-card:hover .lead-front {
   transform: rotateY(180deg);
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .lead-card:hover .lead-back {
   transform: rotateY(360deg);
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .lead-img {
